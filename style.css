@@ -653,3 +653,29 @@ body {
     object-fit: cover;
     border-radius: 6px;
 }
+
+.review-breakdown-container {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .reviews-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+
+    }
+
+    .rating-summary {
+        flex-direction: column;
+
+    }
+
+    .reviews-header {
+        display: none;
+    }
+
+
+}
